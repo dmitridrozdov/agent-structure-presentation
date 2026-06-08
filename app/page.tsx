@@ -70,7 +70,7 @@ export default function Presentation() {
   return (
     <div
       className="min-h-screen flex flex-col select-none"
-      style={{ background: "#0d1117", fontFamily: "'JetBrains Mono', 'Fira Code', monospace" }}
+      style={{ background: "#0d1117", fontFamily: "var(--font-syne), sans-serif" }}
     >
       {/* Top bar */}
       <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 border-b border-slate-800/60 backdrop-blur-sm"
